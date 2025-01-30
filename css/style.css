@@ -4,3 +4,50 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: var(--color-8);
+}
+header{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header_logo{
+}
+
+.header_logo img{
+
+}
+
+.header_nav{
+display: flex;
+justify-content: space-between;
+gap: 54px;
+}
+
+.header_nav li{
+list-style: none;
+}
+
+.header_nav li a{
+    font-family: "Poppins-Semibold";
+    color: var(--color-1);
+    text-decoration: none;
+    font-size: 28px;
+    display: flex;
+
+
+}
+
+.header_nav li a img{
+    
+}
+
+.header_menu{
+}
