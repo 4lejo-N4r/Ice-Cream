@@ -303,6 +303,7 @@ main{
     background: orange;
     width: 551.8px;
     height: 324px;
+    border-radius: 25px;
 }
 .form__container-product img{
 }
