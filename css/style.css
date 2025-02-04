@@ -260,26 +260,33 @@ main{
 }
 
 .section__container-products {
-    background: red;
+    /*background: red;
     /* padding: 20px; */
     display: flex;
     flex-direction: column;
 }
 .div__trendy {
-    background: violet;
+    background: var(--color-1);
+    width: 20%;
+    height: 55px;
+    border-radius: 52px;
+    margin-left: 900px;
+    margin-top: 40px;
 }
+
 .div__trendy h2{
-    position:relative;
+    padding-right: 35px;
     font-family: Poppins-Medium;
     padding-top: 0%;
-    padding-left: 81%;
-    font-size: 30px;
-    padding-right: 0%;
+    font-size: 28px;
+    line-height: 55px;
+    text-align: center;
+    font-weight: 540;
 }
 .div__trendy img{
-    position: absolute;
-    top: 121%;
-    left: 86%;
+    position: relative;
+    bottom: 120%;
+    left: 72%;
 }
 .article__products{
     background: green;
